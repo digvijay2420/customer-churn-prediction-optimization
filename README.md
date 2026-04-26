@@ -44,3 +44,48 @@ Metric Focus: Given the class imbalance (26.5% churn), I prioritized AUC-ROC and
 The model is successfully deployed as a real-time web application via **Streamlit Cloud**. This interactive interface allows business users and stakeholders to input specific customer attributes—such as tenure, contract type, and monthly charges—to receive an instant churn risk assessment.
 
 **👉 [Launch the Customer Churn Predictor](https://customer-churn-prediction-optimization-7rfajyvdswxzptc7zryhwr.streamlit.app/)**
+
+---
+### Usage: How to Interact with the Project
+The application is designed to be user-friendly for non-technical stakeholders.
+1. **Input Features:** Adjust customer parameters like `Tenure`, `Monthly Charges`, and `Contract Type` in the sidebar.
+2. **Predict:** Click the "Predict Now" button to trigger the model inference.
+3. **Interpret:** The app will return a color-coded status (Red for Churn, Green for Stay) along with the probability score.
+
+---
+
+### 🚀 Business Impact & Usage
+This deployment serves as a decision-support tool for marketing and retention teams:
+* **Real-time Risk Scoring:** Instantly identify high-risk "Month-to-Month" subscribers.
+* **Proactive Retention:** Enables teams to offer targeted discounts or technical support bundles *before* the customer churns.
+* **Metric Transparency:** Provides a clear "Churn" vs "Stay" probability based on validated historical data.
+
+---
+
+### 💻 How to Run Locally
+To run this project on your local machine for development or testing, follow these steps:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/digvijay2420/customer-churn-prediction-optimization.git](https://github.com/digvijay2420/customer-churn-prediction-optimization.git)
+   cd customer-churn-prediction-optimization
+   ```
+2. **Create a Virtual Environment**
+   ```bash
+   python -m venv venv
+   # On Windows:
+   .\venv\Scripts\activate
+   # On Mac/Linux:
+   source venv/bin/activate
+   ```
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Launch the application**
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
