@@ -3,6 +3,15 @@ import pandas as pd
 import numpy as np
 import pickle
 
+
+with st.sidebar:
+    st.title("Project Info")
+    st.info("This app predicts Customer Churn using a Logistic Regression model.")
+    st.markdown("---")
+    st.write("Developed for the HEProAI Business Analytics Fellowship")
+    st.write("[View Code on GitHub](https://github.com/digvijay2420/customer-churn-prediction-optimization)")
+
+
 # --- 1. Load your exported files ---
 try:
     model = pickle.load(open('models/baseline_model.pkl', 'rb'))
