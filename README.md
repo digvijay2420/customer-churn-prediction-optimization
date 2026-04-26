@@ -88,4 +88,8 @@ To run this project on your local machine for development or testing, follow the
    ```
 
 ---
-
+### Academic & Professional Context
+- Name: Digvijay SIngh
+- Fellowship: HEPro AI Business Analytics Fellowship (Jan 2026 – June 2026)
+- Focus Areas: Predictive Modeling, EDA, Feature Engineering, and Model Deployment.
+- Tools Used: Python,Pandas & Numpy,Scikit-learn,Matplotlib & Seaborn,Streamlit Cloud,Git and Github
