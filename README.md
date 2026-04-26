@@ -39,3 +39,8 @@ Metric Focus: Given the class imbalance (26.5% churn), I prioritized AUC-ROC and
 - Preprocessing: Implemented StandardScaler for numerical normalization and manual encoding for categorical features to ensure deployment stability.
 
 ---
+
+### 🌐 Live Deployment
+The model is successfully deployed as a real-time web application via **Streamlit Cloud**. This interactive interface allows business users and stakeholders to input specific customer attributes—such as tenure, contract type, and monthly charges—to receive an instant churn risk assessment.
+
+**👉 [Launch the Customer Churn Predictor](https://customer-churn-prediction-optimization-7rfajyvdswxzptc7zryhwr.streamlit.app/)**
