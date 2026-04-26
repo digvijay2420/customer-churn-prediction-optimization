@@ -10,8 +10,8 @@ import pickle
 
 # --- 1. Load your exported files ---
 try:
-    model = pickle.load(open('baseline_model.pkl', 'rb'))
-    scaler = pickle.load(open('scaler.pkl', 'rb'))
+    model = pickle.load(open('models/baseline_model.pkl', 'rb'))
+    scaler = pickle.load(open('models/scaler.pkl', 'rb'))
 except FileNotFoundError:
     st.error("Missing .pkl files! Place baseline_model.pkl and scaler.pkl in this folder.")
 
